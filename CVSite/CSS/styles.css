@@ -1,0 +1,16 @@
+body{
+  font-family: "Quicksand";
+  text-align: center;
+}
+
+h1{
+  color: #633a82;
+  font-size: 3rem;
+  font-family: "Mr De Haviland";
+  margin-block-end: 0;
+}
+
+p{
+  color: #633a82;
+  margin-block-start: 0;
+}
