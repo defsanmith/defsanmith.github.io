@@ -4,6 +4,10 @@ body {
     background-color: #eeeeee;
 }
 
+.container {
+    width: 75%;
+}
+
 .navbar {
     padding-top: 3rem;
 }
@@ -30,16 +34,15 @@ body {
     font-weight: 500;
 }
 
-.container {
-    width: 75%;
-}
-
 p {
     color: #232931;
     margin-block-start: 0;
 }
 
 @media (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
     .navbar-nav {
         position: inherit;
     }
