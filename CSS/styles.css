@@ -49,20 +49,12 @@ body {
 
 #profile {
     position: relative;
-    /* top: 50%;
-    margin-top: -150px; */
     width: 350px;
     border-radius: 50%;
     padding-left: 0;
 }
 
-#wrap {
-    position: relative;
-    height: 350px;
-}
-
 #intro {
-    position: absolute;
     height: 100px;
     width: 100%;
     text-align: left;
@@ -70,11 +62,9 @@ body {
 }
 
 #directs {
-    padding: 0 5.875px;
-    height: 150px;
     width: 100%;
-    position: absolute;
-    top: 100px;
+    margin: 0px;
+    padding: 0px;
 }
 
 button:focus,
@@ -113,13 +103,8 @@ button:focus,
 #quote {
     height: 100px;
     width: 100%;
-    position: absolute;
-    top: 250px;
-}
-
-.quote-container {
+    margin: 0 0.125rem;
     position: relative;
-    padding: 0;
 }
 
 .quote-text,
@@ -141,6 +126,7 @@ button:focus,
 
 .icon-left {
     position: absolute;
+    left: 0;
 }
 
 .icon-right {
@@ -176,5 +162,36 @@ footer {
     }
     .navbar-nav {
         position: inherit;
+        font-size: 1.125rem;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+    /* #nav-name {
+        margin-bottom: 0%;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    #nav-sub {
+        font-size: 1.125rem;
+        font-weight: 300;
+    } */
+    .body-container {
+        margin-top: 2rem;
+    }
+    .circle {
+        opacity: 100%;
+    }
+    #quote {
+        margin: 0 .125rem;
+    }
+    footer {
+        text-align: left;
+    }
+    .follow-me {
+        margin: 1rem 0;
+    }
+    .copyright {
+        margin-top: 1rem;
     }
 }
