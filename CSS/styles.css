@@ -166,6 +166,12 @@ footer {
     .navbar-brand {
         width: 50%;
     }
+    #nav-name {
+        font-size: 2rem;
+    }
+    #nav-sub {
+        font-size: 1.125rem;
+    }
     .body-container {
         margin-top: 2rem;
     }
