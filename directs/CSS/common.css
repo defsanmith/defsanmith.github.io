@@ -5,7 +5,6 @@ body {
     color: #222831;
 }
 
-
 /* Container */
 
 .container {
@@ -98,6 +97,5 @@ footer {
 @media screen and (min-width: 1700px) {
     body {
         zoom: 1.225;
-        ;
     }
 }

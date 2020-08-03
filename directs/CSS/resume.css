@@ -12,9 +12,14 @@ h5 {
     margin-top: 0.5rem;
 }
 
+h4, h5{
+    margin: 0;
+}
+
 hr {
     background-color: #3797a4;
     margin: 0;
+    margin-bottom: 1rem;
 }
 
 button {
@@ -38,6 +43,7 @@ button:focus,
 
 .heading {
     position: relative;
+    margin-bottom: 0;
 }
 
 .collapsible {
@@ -57,6 +63,10 @@ button:focus,
     height: 1rem;
     background-color: #e4e4e4;
     border-radius: .5rem;
+}
+
+.skill-text{
+    font-weight: 350;
 }
 
 .skill-progress {
@@ -89,5 +99,11 @@ footer {
     }
     .collapsible {
         visibility: visible;
+    }
+    .skill-bar{
+        margin-top: 3px
+    }
+    .skill-head{
+        text-align: right;
     }
 }
