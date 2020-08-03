@@ -196,3 +196,15 @@ footer {
         margin-top: 1rem;
     }
 }
+
+@media screen and (max-width: 1699px){
+    body{
+    zoom: 1;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    body{
+        zoom: 1.225;;
+    }
+}
