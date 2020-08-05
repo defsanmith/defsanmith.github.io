@@ -52,12 +52,6 @@ button:focus,
     visibility: hidden;
 }
 
-.contact-info-sm {
-    visibility: hidden;
-    width: 0;
-    height: 0;
-}
-
 .skill-bar {
     width: 100%;
     height: 1rem;
@@ -87,23 +81,21 @@ footer {
 }
 
 @media screen and (max-width: 990px) {
+    .navbar-nav{
+        text-align: center;
+    }
     .contact-info {
         visibility: hidden;
         height: 0;
     }
-    .contact-info-sm {
-        visibility: visible;
-        height: inherit;
-        width: inherit;
-        margin: .5rem 0;
-    }
+    
     .collapsible {
         visibility: visible;
     }
     .skill-bar{
-        margin-top: 3px
+        margin-top: 3px;
     }
-    .skill-head{
-        text-align: right;
+    .skill-text{
+        font-size: 1rem;
     }
 }
