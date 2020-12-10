@@ -1,0 +1,103 @@
+body {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    background-color: #eeeeee;
+    color: #222831;
+}
+
+
+/* Container */
+
+.container {
+    width: 75%;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding-top: 2rem;
+}
+
+.navbar-brand {
+    text-align: left;
+}
+
+#nav-name {
+    margin-bottom: 0%;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#nav-sub {
+    font-weight: 300;
+}
+
+.navbar-nav {
+    position: absolute;
+    margin: auto;
+    right: 0rem;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+/* Main body */
+
+h2 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 3rem;
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+.follow-icon,
+.heading-icon {
+    margin: 0 .25rem;
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
+    .navbar-nav {
+        position: inherit;
+        font-size: 1.125rem;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+    #nav-name {
+        font-size: 2rem;
+    }
+    #nav-sub {
+        font-size: 1.125rem;
+    }
+    .follow-me {
+        margin: 1rem 0;
+    }
+    .copyright {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1699px) {
+    body {
+        zoom: 1;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    body {
+        zoom: 1.225;
+        ;
+    }
+}
